@@ -1,0 +1,4 @@
+BurningForeignLanguage
+======================
+
+AngularJS translation directive
