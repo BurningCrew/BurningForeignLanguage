@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body ng-controller="controller">
+
+<h1 bfl-translate>Hello there!</h1>
+<p bfl-translate>Might fine morning,</p>
+<span bfl-translate>if you ask. I'm </span><a bfl-translate bfl-init="waldo" href="#{{waldo}}">waldo</a>
+Language : <input type="text" ng-model="lang" bfl-language="{{lang}}"><br>
+Try type en_US or ko_KR
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+<script src="https://burningchat.firebaseapp.com/js/burningForeignLanguage.js"></script>
+</body>
+</html>
